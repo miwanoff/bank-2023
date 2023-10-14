@@ -23,6 +23,9 @@ let atm1 = {
       alert(card.balance);
     }
   },
+  getMoney: function (card, sum) {
+    
+  },
   check: function (card) {
     const code = +prompt("input code");
     if (code === card.code) {
